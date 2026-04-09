@@ -2,7 +2,7 @@ from app.database import *
 from sqlalchemy.orm import Session
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.responses import FileResponse, JSONResponse 
-from models.user import *
+from app.models.user import *
 from datetime import datetime
 from fastapi.middleware.cors import CORSMiddleware
 Base.metadata.create_all(bind=engine)
