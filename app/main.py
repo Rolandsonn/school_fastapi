@@ -1,4 +1,4 @@
-from database import *
+from app.database import *
 from sqlalchemy.orm import Session
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.responses import FileResponse, JSONResponse 
